@@ -8,10 +8,18 @@
 
 #Questão 03
 
-senha =  input("Digite sua senha: ")
-flag =  "carlinhos"
+# senha =  input("Digite sua senha: ")
+# flag =  "carlinhos"
 
-while(senha !=flag):
-    if(senha != flag):
-        senha = input("Digite sua senha novamente: ")
-print("Fim do programa")
+# while(senha !=flag):
+#     if(senha != flag):
+#         senha = input("Digite sua senha novamente: ")
+# print("Fim do programa")
+
+#05
+
+a =  int(input("Digite um valor inteiro: "))
+
+while(a != 1 ):
+    print(a)
+    a = a * (a-1) 
