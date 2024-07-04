@@ -12,7 +12,14 @@
 
 #Questão 2.
 
-c =  float(input("Digite sua temperatura em Celcius: "))
-f = c * (1.8) + 32
+# c =  float(input("Digite sua temperatura em Celcius: "))
+# f = c * (1.8) + 32
 
-print("A temperatura em Fahrenheit:", f)
+# print("A temperatura em Fahrenheit:", f)
+
+#Questão 3. 
+
+r = float(input("Digite um valor para o raio: "))
+area =  3,14 * r**2
+
+print("valor da area do circulo é de: " , area)
