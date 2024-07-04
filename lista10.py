@@ -19,7 +19,10 @@
 #05
 
 a =  int(input("Digite um valor inteiro: "))
+fatorial = 1
+x = 1
 
-while(a != 1 ):
-    print(a)
-    a = a * (a-1) 
+while(x <= a ):
+    fatorial = fatorial * x
+    x += 1
+print(fatorial)
