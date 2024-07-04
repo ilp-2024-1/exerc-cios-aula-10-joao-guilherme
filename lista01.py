@@ -17,9 +17,20 @@
 
 # print("A temperatura em Fahrenheit:", f)
 
-#Questão 3. 
+# #Questão 3. 
 
-r = float(input("Digite um valor para o raio: "))
-area =  3,14 * r**2
+# r = float(input("Digite um valor para o raio: "))
+# area =  3,14 * r**2
 
-print("valor da area do circulo é de: " , area)
+# print("valor da area do circulo é de: " , area)
+
+#Questão 4.
+
+a = int(input("Digite a altura: "))
+b = int(input("Digite base:"))
+
+area= (a*b)/2
+
+print("A area é: ", area)
+
+
