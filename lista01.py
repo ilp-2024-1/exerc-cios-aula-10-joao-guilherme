@@ -26,11 +26,18 @@
 
 #Questão 4.
 
-a = int(input("Digite a altura: "))
-b = int(input("Digite base:"))
+# a = int(input("Digite a altura: "))
+# b = int(input("Digite base:"))
 
-area= (a*b)/2
+# area= (a*b)/2
 
-print("A area é: ", area)
+# print("A area é: ", area)
 
+#Questão 05
+
+r = int(input("Digite o valor do raio: "))
+z = (4/3) * 3,14
+v =  (r ** 3) * z
+
+print("O volume da esfera é: ", v)
 
