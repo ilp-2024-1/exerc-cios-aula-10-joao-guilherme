@@ -35,9 +35,18 @@
 
 #Questão 05
 
-r = int(input("Digite o valor do raio: "))
-z = (4/3) * 3,14
-v =  (r ** 3) * z
+# r = int(input("Digite o valor do raio: "))
+# v = 4/3 * 3,14 * r**3
 
-print("O volume da esfera é: ", v)
+# print("O volume da esfera é: ", v)
+
+#Questão 06
+
+a =  float(input("Digite a primeira nota: "))
+b =  float(input("Digite a segunda nota: "))
+c =  float(input("Digite a terceira nota: "))
+
+media =  (a + b + c) / 3
+
+print("A sua primeira nota: ", a ,  "A sua segunda nota: ", b , "A sua terceira  nota: ", c , "Sua media final é: ", media)
 
