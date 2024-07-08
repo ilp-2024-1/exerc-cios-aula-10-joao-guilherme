@@ -1,9 +1,10 @@
 num = int(input('Digite o numero:'))
 
-digito = str(num)
+numero = num
 soma = 0
 
-while digito != num:
+while num > 0:
+    digito = num % 10
     soma += digito
-    print(soma)
-
+    num //= 10
+print(f"A soma dos dígitos de {numero} é {soma}")
