@@ -18,7 +18,7 @@ while(desejacontinuar != 0):
     print('O valor da soma é:', soma)
     print('Programa encerrado')
 
-
+#Questão 03
 import random
 
 numeroaleatorio = random.randint(1,100)
