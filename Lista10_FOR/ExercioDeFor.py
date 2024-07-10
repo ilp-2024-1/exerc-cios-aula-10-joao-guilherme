@@ -39,5 +39,3 @@ for i in range(num1, num2, num3):
     print(f"{i}°C = {tempf}°F")
 print('Programa encerrou')
 
-
-
