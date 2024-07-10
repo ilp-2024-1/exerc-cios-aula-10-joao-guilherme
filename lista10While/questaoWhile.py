@@ -18,7 +18,17 @@ while(desejacontinuar != 0):
     print('O valor da soma é:', soma)
     print('Programa encerrado')
 
-#Questão 03
+# Questão 03
+
+senha =  input("Digite sua senha: ")
+flag =  "carlinhos"
+
+while(senha !=flag):
+    if(senha != flag):
+        senha = input("Digite sua senha novamente: ")
+print("Fim do programa")
+
+#Questão 04
 import random
 
 numeroaleatorio = random.randint(1,100)
