@@ -28,6 +28,16 @@ while(senha !=flag):
         senha = input("Digite sua senha novamente: ")
 print("Fim do programa")
 
+#Questão 04
+import random
+
+numeroaleatorio = random.randint(1,100)
+palpite = int(input("Digite 0 para inicar o jogo de palpites!"))
+while palpite != numeroaleatorio:
+    palpite = int(input('Dê o seu palpite:'))
+print('Você acertou!')
+print('Programa encerrando em 3, 2, 1...')
+
 #05
 
 a =  int(input("Digite um valor inteiro: "))
