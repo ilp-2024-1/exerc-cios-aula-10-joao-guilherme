@@ -48,3 +48,4 @@ for i in range(var_1, var_2 + 1):
 var_final = var_soma + var_soma1
 
 print("O valor final é: ", var_final -1)
+
