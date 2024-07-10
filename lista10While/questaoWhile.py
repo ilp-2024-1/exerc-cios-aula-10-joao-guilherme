@@ -38,6 +38,18 @@ while palpite != numeroaleatorio:
 print('Você acertou!')
 print('Programa encerrando em 3, 2, 1...')
 
+
+#05
+
+a =  int(input("Digite um valor inteiro: "))
+fatorial = 1
+x = 1
+
+while(x <= a ):
+    fatorial = fatorial * x
+    x += 1
+print(fatorial)
+
 #Questao 06
 
 num = int(input('Digite um número:'))
