@@ -17,9 +17,19 @@ var_2 = int(input("Digite o segundo valor inteiro positivo:"))
 
 for i in range(var_1, var_2 + 1):
     print(i, end = ",")
+print("Fim do Programa")
+
+#Questão04
+
+num1 = int(input('Digite o numero:'))
+num2 = int(input('Digite o segundo numero:'))
+
+for i in range(num1+1, num2):
+    print(i)
+print('Programa encerrado')
+
 
 #Questão05
-print("Fim do Programa")
 
 var_1 = int(input("Digite o primeiro valor positivo: "))
 var_2 = int(input("Digite o segundo valor positivo: "))
