@@ -64,3 +64,15 @@ while repeticoes != 0:
     a1 = sequencia - 1
     a2 = sequencia - 2
     sequencia = a1 + a2
+    
+#Questão 08
+num = int(input('Digite o numero:'))
+
+numero = num
+soma = 0
+
+while num > 0:
+    digito = num % 10
+    soma += digito
+    num //= 10
+print(f"A soma dos dígitos de {numero} é {soma}")
