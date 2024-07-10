@@ -5,6 +5,7 @@ n1 = 0
 while( n1 <=1000):
     print(n1)
     n1= n1 +1
+
    
 # Questão 03
 
@@ -15,3 +16,17 @@ while(senha !=flag):
     if(senha != flag):
         senha = input("Digite sua senha novamente: ")
 print("Fim do programa")
+
+
+#Questão 02
+
+print('Seja bem vindo ao sistema somatório de valores da Brightside, nos disponibilize dois valores e realizaremos a soma. Mas primeiramente digite 1 para iniciar o programa e 0 para encerrá-lo e exibir a soma')
+desejacontinuar = int(input('Deseja iniciar o programa?'))
+while(desejacontinuar != 0):
+    valor1 = int(input('Digite o primeiro valor:'))
+    valor2 = int(input('Digite o segundo valor:'))
+    soma = valor1 + valor2
+    desejacontinuar = int(input('Deseja encerrar o programa e exibir a soma?'))
+    print('O valor da soma é:', soma)
+    print('Programa encerrado')
+>>>>>>> cc734f59fc06aa26d3362cbe4fcb874d17d84e5a
