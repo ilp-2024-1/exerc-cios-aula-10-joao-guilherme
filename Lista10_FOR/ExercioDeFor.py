@@ -28,7 +28,6 @@ for i in range(num1+1, num2):
     print(i)
 print('Programa encerrado')
 
-
 #Questão05
 
 var_1 = int(input("Digite o primeiro valor positivo: "))
